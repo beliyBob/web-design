@@ -1,0 +1,6 @@
+.block1 input[type="checkbox"] + label{
+	left: -1000px;
+}
+.block3_5 input[type="text"]{
+	line-height: 2.5;
+}

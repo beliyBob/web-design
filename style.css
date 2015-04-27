@@ -1,0 +1,434 @@
+﻿body{
+font-family: Arial,Helvetica,sans-serif;
+}
+* {
+ font-family: inherit; /* все элементы наследуют от своего родителя гарнитуру шрифта */
+ font-style: inherit; /* наследуют начертание */
+ font-weight: inherit; /* наследуют жирность */
+ vertical-align: baseline; /* вертикальное выравнивание по базовой линии */
+ font-size: 100%; /* размер шрифта 100% */
+ background: transparent; /* фон всех элементов прозрачный */
+ border: 0; /* убираем рамки */
+ outline: 0; /* убираем контуры */
+ margin: 0; /* убираем поля */
+ padding: 0; /* убираем отступы */
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+clear: both;
+}
+.odd{
+	background-image: url("image/odd.png");
+	min-width: 10px;
+}
+.even{
+	min-width: 960px;
+	background-image: url("image/even.png");
+}
+.blackfon{
+	min-width: 960px;
+	background-color:black;
+}
+.yellowfon{
+        background-image: url("image/div3_3.png");
+	min-width: 960px;
+}
+.block{
+	width: 960px;
+	margin: auto;
+}
+.head{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.head .img{
+	margin-right: 25px;
+	float: left;
+}
+.head .text{
+	font-size: 24px;
+	padding-top: 10px;
+}
+.head .text2{
+	font-size: 30px;
+	vertical-align: super;
+}
+.head .text3{
+	width: 250px;
+	background-color: green;
+	font-size: 22px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px 0 5px;
+}
+
+.block1 .img1{
+	vertical-align:top;
+}
+.block1 .yellow{
+	margin-top:20px;
+}
+.block1 form{
+	position: relative;
+}
+.block1 input[type="text"]{
+	margin-top: 13px;
+	margin-bottom:24px;
+	padding-left: 15px;
+	display: block;
+	border: 0px;
+	width: 340px;
+	font-size: 18px;
+	height: 25px;
+	z-index: 1;
+}
+.block1 form > label{
+	position: absolute;
+	left: 18px;
+	padding-top: 5px;
+	z-index: 2;
+	font-style: italic;
+	color: #888;
+	cursor: text;
+}
+.block1 form div{
+	margin: 5px 0 5px;
+	font-size: 13px;
+	color: #999;
+	position: relative;
+}
+.block1 form div b{
+	font-weight: normal;
+	color: #c00;
+}
+.block1 input[type="checkbox"]{
+	position: absolute;
+	top: 2px;
+	z-index: 2;
+}
+.block1 input[type="checkbox"] + label{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	z-index: 3;
+	position: relative;
+	border: 1px solid #BBB;	
+	background-color: #f5f5f5;
+        cursor: pointer;
+}
+.block1 input[type="checkbox"] + label span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 2px;
+	width: 14.5px;
+	height: 15px;
+	background-color: #fff;
+}
+.block1 input[type="checkbox"]:checked + label span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 2px;
+	width: 14.5px;
+	height: 15px;
+	background-color: #A00;
+}
+.block1 input[type="submit"]{
+	background-image: url("image/RedBgButton.png");
+	width: 330px;
+	height: 60px;
+        cursor: pointer;
+}
+.block1 img.right{
+        margin-right:25px;
+        cursor: pointer;
+}
+.block1 .img2{
+	margin-top: 12px;
+}
+.block1 .timer{
+	color: #a00;
+	font-size: 36px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 32px;
+	position: relative;
+}
+.block1 .timeWrapper{
+	position: relative;
+	left: -10px;
+}
+.block1 .big{
+	color: #888;
+	font-size: 18px;
+}
+.block1 .small{
+	color: #888;
+	font-size: 14px;
+	line-height: 0.5;
+}
+.block1 .small div{
+        width: 50px;
+        text-align: center;
+}
+.block1 .time1{
+	display: inline-block;
+	position: relative;
+	left: 0px;
+}
+.block1 .time4{
+	display: inline-block;
+	position: absolute;
+	left: 60px;
+}
+.block1 .time2{
+	display: inline-block;
+	position: absolute;
+	left: 80px;
+}
+.block1 .time5{
+	display: inline-block;
+	position: absolute;
+	left: 145px;
+}
+.block1 .time3{
+	display: inline-block;
+	position: absolute;
+	left: 170px;
+}
+.block1 .small .time3{
+	left: 165px;
+}
+.block1 .timer > div{
+	position: relative;
+	width: 185px;
+}
+.block2 > ul{
+    height: 400px;
+    list-style-type: none;
+}
+.block2 > ul > li{
+    width: 320px;
+    height: 200px;
+    float: left;
+}
+.block2 > ul > li > *{
+    margin: auto;
+    text-align: center;
+    display: block;
+    color: white;
+}
+.block2 > ul > li > img{
+    margin-top: 30px;
+    margin-bottom: 15px; 
+}
+.block2 .img{
+    margin-top: 10px;
+    margin-bottom: 15px; 
+}
+.block2 > ul > li > p{
+    font-size: 30px;
+}
+.block2 > ul > li > span{
+    font-size: 24px;
+}
+.block3 .title{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 36px;
+}
+.block3 .rightDiv{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 70px;
+}
+.block3 .rightDiv > p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.block3 .rightDiv ul{
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+.block3 .rightDiv li{
+    font-size: 18px;
+    color: #666
+}
+.block3 .rightDiv li:before{
+    content: " - ";
+}
+.block3 .trangle{
+    margin: auto;
+    width: 0;
+    margin-top: 30px;
+    border: 15px solid transparent;
+    border-bottom: 10px solid #fbcb0e;
+}
+.block3_5{
+    height: 100px;
+}
+.block3_5 input[type="text"]{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    margin: 30px 25px 0 0;
+}
+.block3_5 input[type="submit"]{
+    width: 200px;
+    height: 60px;
+    background-image: url("image/div3_2.png");
+    cursor: pointer;
+}
+.block3_5 label{
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 40px;
+    z-index: 2;
+    font-style: italic;
+    color: #888;
+    cursor: text;
+}
+.block4{
+    color:white;
+}
+.block4 .title{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    font-size: 36px;
+}
+.block4 span{
+    font-size: 18px;
+    margin-bottom: 55px;
+    display: inline-block;
+}
+.block5 .title{
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    font-size: 36px;
+}
+.block5 .left{
+    margin: 0 15px 25px 0;
+    padding-top: 5px;
+}
+.block5 .end{
+    margin-bottom: 25px;
+}
+.block5 .part{
+    font-size: 18px;
+    color: #333;
+    vertical-align: top;
+}
+.block5 .part span{
+    white-space: pre-wrap;
+}
+.block5 .part b{
+    font-weight: bold;
+    color: black;
+}
+.block6 .title{
+    text-align: center;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    color: white;
+}
+.block6 .wrapper{
+    width: 480px;
+    margin-left: 50px;
+}
+.block6 .wrapper span{
+    color: white;
+}
+.block6 .wrapper iframe{
+    margin: 30px 0 30px;
+}
+.block7{
+    padding-bottom: 20px;
+}
+.block7 .title{
+    text-align: center;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    font-size: 36px;
+}
+.block7 .content > div:nth-child(4n+1) img{
+    float: left;
+    margin-right:  20px;
+}
+.block7 .content > div:nth-child(4n+3) img{
+    float: right;
+    margin-left:  20px;
+}
+.block7 .content > div p{
+    text-align: right;
+    color: blue;
+}
+.block7 .content > div span:before{
+    content: "\201c \a0";
+    font-weight: bold;
+}
+.block7 .content > div span:after{
+    content: " \201e \a0";
+    font-weight: bold;
+}
+.block7 .clear{
+    margin-bottom: 35px;
+}
+.block8 .title{
+    text-align: center;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    color: white;
+}
+.block8{
+    text-align: center;
+}
+.block8 img{
+    margin: 0 25px 50px;
+}
+.footer{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.footer .img{
+	margin-right: 25px;
+	float: left;
+}
+.footer .text{
+	font-size: 24px;
+	padding-top: 10px;
+}
+.footer .text2{
+	font-size: 30px;
+	vertical-align: super;
+}
+.footer .text3{
+	width: 250px;
+	background-color: green;
+	font-size: 22px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px 0 5px;
+}
